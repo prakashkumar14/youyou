@@ -235,6 +235,7 @@
       font-size:clamp(38px,9vw,85px);
       line-height:1.1;
       background:linear-gradient(90deg,#fff,#ff82aa,#fff);
+      background-clip:text;
       -webkit-background-clip:text;
       color:transparent;
       background-size:200% auto;
@@ -742,7 +743,7 @@
 
   <!-- MUSIC -->
   <audio id="music" loop preload="auto">
-    <source src="Jungle%20Hai%20Aadhi%20Raat%20Hai.mp3" type="audio/mpeg">
+    <source src="Happy Birthday.mp3" type="audio/mpeg">
   </audio>
 
   <button class="music" onclick="toggleMusic()" id="musicButton" aria-label="Play or Pause Music">
@@ -869,9 +870,9 @@
   <script>
     /* =======================================
        PASSWORD CHECK LOGIC
-       (Default password: "glass")
+       (Default password: "love")
     ======================================= */
-    const CORRECT_PASSWORD = "glass"; 
+    const CORRECT_PASSWORD = "love"; 
 
     function checkPassword(){
       const entered = document.getElementById("passInput").value.trim().toLowerCase();
@@ -1163,7 +1164,7 @@
     const loveYesQuestions = [
       {
         text: "Sach mein pakka love karte ho na? 🥰",
-        gif: "https://media.tenor.com/On7kv4pP-6IAAAAi/peach-goma.gif"
+        gif: "https://tenor.com/view/peace-out-gif-1811926126489446884"
       },
       {
         text: "Hamesha mere nakhre jheloge? 🥺👉👈",
